@@ -1,17 +1,15 @@
-import { Aside } from "./clipboard-landing-page-master/components/Aside"
-import { Footer } from "./clipboard-landing-page-master/components/Footer"
-import { Header } from "./clipboard-landing-page-master/components/Header"
-import { Main } from "./clipboard-landing-page-master/components/Main"
+import { Aside } from "./news-homepage-main/components/Aside"
+import { Main } from "./news-homepage-main/components/Main"
+import { Navbar } from "./news-homepage-main/components/Navbar"
 
 
 function App() {
 
   return (
-    <div className="flex flex-col gap-40">
-      <Header/>
+    <div className="lg:p-10 p-5 flex flex-col gap-20">
+      <Navbar/>
       <Main/>
       <Aside/>
-      <Footer/>
     </div>
   )
 }

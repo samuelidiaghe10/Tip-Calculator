@@ -7,14 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'Strong-Cyan': 'hsl(171, 66%, 44%)',
-        'Light-Blue': 'hsl(233, 100%, 69%)',
-        'Dark-Grayish-Blue': 'hsl(210, 10%, 33%)',
-        'Grayish-Blue': 'hsl(201, 11%, 66%)',
-      },
-
-      backgroundImage: {
-        pattern : 'url("/src/clipboard-landing-page-master/images/bg-header-desktop.png")'
+        'Soft-orange': 'hsl(35, 77%, 62%)',
+        'Soft-red': 'hsl(5, 85%, 63%)',
+        'Off-white': 'hsl(36, 100%, 99%)',
+        'Grayish-blue': 'hsl(233, 8%, 79%)',
+        'Dark-grayish-blue': 'hsl(236, 13%, 42%)',
+        'Very-dark-blue': 'hsl(240, 100%, 5%)',
       }
     },
   },
