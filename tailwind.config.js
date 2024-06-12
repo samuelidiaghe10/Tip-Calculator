@@ -6,13 +6,11 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        'Soft-orange': 'hsl(35, 77%, 62%)',
-        'Soft-red': 'hsl(5, 85%, 63%)',
-        'Off-white': 'hsl(36, 100%, 99%)',
-        'Grayish-blue': 'hsl(233, 8%, 79%)',
-        'Dark-grayish-blue': 'hsl(236, 13%, 42%)',
-        'Very-dark-blue': 'hsl(240, 100%, 5%)',
+      colors: {        
+        'Tomato': 'hsl(4, 100%, 67%)',
+        'Dark-Slate-Grey': 'hsl(234, 29%, 20%)',
+        'Charcoal-Grey': 'hsl(235, 18%, 26%)',
+        'Grey': 'hsl(231, 7%, 60%)',
       }
     },
   },
