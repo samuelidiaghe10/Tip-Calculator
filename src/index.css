@@ -3,11 +3,50 @@
 @tailwind utilities;
 
 * {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-button:hover{
-  background: linear-gradient(to right, rgb(255, 0, 76) ,hsl(4, 90%, 63%));
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
 }
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 80px;
+	height: 40px;
+	background: hsl(237, 63%, 64%);
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 30px;
+	height: 30px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: hsl(236, 72%, 79%);
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 20px;
+}
+

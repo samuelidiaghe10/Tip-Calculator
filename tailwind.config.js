@@ -7,10 +7,17 @@ export default {
   theme: {
     extend: {
       colors: {        
-        'Tomato': 'hsl(4, 100%, 67%)',
-        'Dark-Slate-Grey': 'hsl(234, 29%, 20%)',
-        'Charcoal-Grey': 'hsl(235, 18%, 26%)',
-        'Grey': 'hsl(231, 7%, 60%)',
+        'Very-Light-Grayish-Blue': 'hsl(240, 78%, 98%)',
+        'Light-Grayish-Blue': 'hsl(234, 14%, 74%)',
+        'Grayish-Blue': 'hsl(233, 13%, 49%)',
+        'Dark-Grayish-Blue': 'hsl(232, 13%, 33%)',
+        'color1': 'hsl(236, 72%, 79%)',
+        'color2': 'hsl(237, 63%, 64%)'
+      },
+
+      backgroundImage: {
+        pattern1: 'url("/src/pricing-component-with-toggle-master/images/bg-top.svg")',
+        pattern2: 'url("/src/pricing-component-with-toggle-master/images/bg-bottom.svg")'
       }
     },
   },
