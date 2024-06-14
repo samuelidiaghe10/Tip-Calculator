@@ -1,11 +1,16 @@
-import { Switch } from "./pricing-component-with-toggle-master/components/Switch"
+import { BasePage } from "./project-tracking/components/BasePage"
 
 function App() {
 
   return (
-    <div className=" bg-pattern1 bg-Very-Light-Grayish-Blue py-10 mx-auto min-h-screen bg-no-repeat bg-right-top">
-      <Switch/>
-    </div>
+    <div className="flex flex-col  gap-10">
+      <div className=" bg-Light-Grayish-Blue relative self-end -z-10 w-[15rem]  lg:w-[42rem] rounded-bl-[70px] h-[30rem]"></div>
+
+      <div className="absolute  lg:px-0 pt-10">
+        <BasePage/>
+      </div>
+      
+    </div>  
   )
 }
 
