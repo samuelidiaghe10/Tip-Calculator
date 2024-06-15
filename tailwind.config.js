@@ -6,11 +6,13 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {        
-        'Very-Dark-Blue': 'hsl(230, 29%, 20%)',
-        'Dark-Grayish-Blue': 'hsl(230, 11%, 40%)',
-        'Grayish-Blue': 'hsl(231, 7%, 65%)',
-        'Light-Grayish-Blue': 'hsl(207, 33%, 95%)'
+      colors: {                        
+        'Soft-red': 'hsl(10, 79%, 65%)',
+        'Cyan': 'hsl(186, 34%, 60%)',
+        'Dark-brown': 'hsl(25, 47%, 15%)',
+        'Medium-brown': 'hsl(28, 10%, 53%)',
+        'Cream': 'hsl(27, 66%, 92%)',
+        'Very-pale-orange': 'hsl(33, 100%, 98%)',
       },
 
       

@@ -13,14 +13,15 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Red: hsl(0, 100%, 68%)
+- Soft red: hsl(10, 79%, 65%)
+- Cyan: hsl(186, 34%, 60%)
 
 ### Neutral
 
-- Very Dark Blue: hsl(230, 29%, 20%)
-- Dark Grayish Blue: hsl(230, 11%, 40%)
-- Grayish Blue: hsl(231, 7%, 65%)
-- Light Grayish Blue: hsl(207, 33%, 95%)
+- Dark brown: hsl(25, 47%, 15%)
+- Medium brown: hsl(28, 10%, 53%)
+- Cream: hsl(27, 66%, 92%)
+- Very pale orange: hsl(33, 100%, 98%)
 
 ## Typography
 
@@ -28,14 +29,9 @@ The designs were created to the following widths:
 
 - Font size: 18px
 
-### Headings, Call-to-actions, Navigation
+### Font
 
-- Family: [Barlow Condensed](https://fonts.google.com/specimen/Barlow+Condensed)
+- Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
 - Weights: 400, 700
-
-### Body
-
-- Family: [Barlow](https://fonts.google.com/specimen/Barlow)
-- Weights: 400
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.

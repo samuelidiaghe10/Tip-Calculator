@@ -2,10 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
-
-*{
-	font-family: "Barlow", sans-serif;
-	font-weight: 400;
-	font-style: normal;
+#root{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;  
 }
 
+#mon{
+    background-color:  hsl(10, 79%, 65%);
+    height: 30px;
+}
+
+
+
+#tue{
+    background-color:  hsl(10, 79%, 65%);
+    height: 70px;
+}
+
+#wed{
+    background-color: hsl(186, 34%, 60%);
+    height: 120px;
+}
+
+
+#thu{
+    background-color:  hsl(10, 79%, 65%);
+    height: 60px;
+}
+
+
+#fri{
+    background-color:  hsl(10, 79%, 65%);
+    height: 45px;
+}
+
+#sat{
+    background-color:  hsl(10, 79%, 65%);
+    height: 85px;
+}
+
+
+#sun{
+    background-color:  hsl(10, 79%, 65%);
+    height: 50px;
+}
+
+
+#mon:hover{
+    background-color: hsl(10, 100%, 74%);
+}
+
+
+#tue:hover{
+    background-color: hsl(10, 100%, 74%);
+}
+
+#wed:hover{
+    background-color: hsl(186, 54%, 67%);
+}
+
+#thu:hover{
+    background-color: hsl(10, 100%, 74%);
+}
+
+#fri:hover{
+    background-color: hsl(10, 100%, 74%);
+}
+
+#sat:hover{
+    background-color: hsl(10, 100%, 74%);
+}
+
+#sun:hover{
+    background-color: hsl(10, 100%, 74%);
+}
+
+.amount{
+    opacity: 0;
+}
+
+.hoverMe:hover + .amount{
+    opacity: 100;
+}
