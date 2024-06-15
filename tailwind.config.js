@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {                        
-        'Soft-red': 'hsl(10, 79%, 65%)',
-        'Cyan': 'hsl(186, 34%, 60%)',
-        'Dark-brown': 'hsl(25, 47%, 15%)',
-        'Medium-brown': 'hsl(28, 10%, 53%)',
-        'Cream': 'hsl(27, 66%, 92%)',
-        'Very-pale-orange': 'hsl(33, 100%, 98%)',
+        'Strong-cyan': 'hsl(172, 67%, 45%)',
+        'Very-dark-cyan': 'hsl(183, 100%, 15%)',
+        'Dark-grayish-cyan': 'hsl(186, 14%, 43%)',
+        'Grayish-cyan': 'hsl(184, 14%, 56%)',
+        'Light-grayish-cyan': 'hsl(185, 41%, 84%)',
+        'Very-light-grayish-cyan': 'hsl(189, 41%, 97%)',
       },
 
       

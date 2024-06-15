@@ -13,25 +13,26 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Soft red: hsl(10, 79%, 65%)
-- Cyan: hsl(186, 34%, 60%)
+- Strong cyan: hsl(172, 67%, 45%)
 
 ### Neutral
 
-- Dark brown: hsl(25, 47%, 15%)
-- Medium brown: hsl(28, 10%, 53%)
-- Cream: hsl(27, 66%, 92%)
-- Very pale orange: hsl(33, 100%, 98%)
+- Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Very light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 18px
+- Font size (form inputs): 24px
 
 ### Font
 
-- Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
-- Weights: 400, 700
+- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Weights: 700
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.

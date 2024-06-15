@@ -1,11 +1,11 @@
-import { BasePage } from "./expenses-chart-component-main/Components/BasePage"
+import { BasePage } from "./tip-calculator-app-main/components/BasePage"
 
 function App() {
 
   return (
-    <div className=" bg-Cream py-10 min-h-screen">
+    <div className=" bg-Light-grayish-cyan min-h-screen py-5 md:px-20">
       <BasePage/>
-    </div> 
+    </div>
   )
 }
 
